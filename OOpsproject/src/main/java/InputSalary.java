@@ -10,12 +10,11 @@ public class InputSalary {
         this.bonus = bonus;
     }
 
-    public double calculateSalary() {
-        return basicPay + bonus - deduction;
+
     }
 	
-	
+
 	      		
 			
-	}
+    
 
