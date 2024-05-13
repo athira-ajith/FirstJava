@@ -40,7 +40,7 @@ public class DiscountCalculator {
                 System.out.println("Sorry, no discount applied.");
             }
             
-            System.out.println("Final amount after discount: $" + totalAmount);
+            System.out.println("Final amount after discount: " + totalAmount);
             
             scanner.close();
         
