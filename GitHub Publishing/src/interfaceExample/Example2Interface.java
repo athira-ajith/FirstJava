@@ -1,6 +1,6 @@
 package interfaceExample;
 
-public class Example2Interface implements ExampleInterface {
+public class Example2Interface extends ExampleInterface {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -9,15 +9,11 @@ public class Example2Interface implements ExampleInterface {
 
 	}
 	
-	public void add() {
+	public void add(int a,int b) {
 		int sum=a+b;
 		System.out.println(sum);
 	}
 
-	@Override
-	public void print() {
-		// TODO Auto-generated method stub
-		
-	}
+	
 
 }
